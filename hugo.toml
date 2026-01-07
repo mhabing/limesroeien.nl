@@ -1,0 +1,4 @@
+baseURL = 'https://roeienlimes.nl/'
+languageCode = 'en-us'
+title = 'Roeivereniging Limes'
+theme = 'ananke'

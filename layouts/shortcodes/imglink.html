@@ -1,0 +1,21 @@
+{{/* imglink shortcode
+Usage:
+  {{< imglink "images/foo.jpg" "/target-url/" "Alt text" >}}
+Params:
+  0: image path (assets or static)
+  1: optional link target (href)
+  2: optional alt text
+*/}}
+{{ $src := .Get 0 }}
+{{ $link := .Get 1 }}
+{{ $alt := .Get 2 }}
+{{ $img := resources.Get $src }}
+{{ if $img }}
+  <a href="{{ if $link }}{{ $link }}{{ else }}{{ $img.Permalink }}{{ end }}">
+    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}">
+  </a>
+{{ else }}
+  <a href="{{ if $link }}{{ $link }}{{ else }}{{ $src }}{{ end }}">
+    <img src="{{ $src }}" alt="{{ $alt }}">
+  </a>
+{{ end }}
