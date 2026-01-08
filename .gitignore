@@ -1,1 +1,9 @@
 .hugo_build.lock
+public/
+resources/
+
+# OS files
+.DS_Store
+
+# Node dependencies
+node_modules/

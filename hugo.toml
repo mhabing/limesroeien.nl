@@ -1,4 +1,17 @@
 baseURL = 'https://roeienlimes.nl/'
-languageCode = 'en-us'
+languageCode = 'nl-NL'
 title = 'Roeivereniging Limes'
-theme = 'ananke'
+theme = 'hugo-flex'
+
+[params]
+color = "blue"
+footer = "Gebouwd met Hugo"
+
+[menu]
+main = [
+  { name = "Contact", pageRef = "/contact", weight = 1 },
+  { name = "Aanmelden", pageRef = "/aanmelden", weight = 2 },
+  { name = "FAQ", pageRef = "/faq", weight = 3 },
+  { name = "contributie", pageRef = "/contributie", weight = 4 }
+]
+
