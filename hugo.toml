@@ -1,17 +1,18 @@
-baseURL = 'https://roeienlimes.nl/'
+baseURL = 'https://limesroeien.nl/'
 languageCode = 'nl-NL'
 title = 'Roeivereniging Limes'
 theme = 'hugo-flex'
 
 [params]
-color = "blue"
-footer = "Gebouwd met Hugo"
+color = "#A7321B"
+footer = ""
 
 [menu]
 main = [
-  { name = "Contact", pageRef = "/contact", weight = 1 },
-  { name = "Aanmelden", pageRef = "/aanmelden", weight = 2 },
-  { name = "FAQ", pageRef = "/faq", weight = 3 },
-  { name = "contributie", pageRef = "/contributie", weight = 4 }
+  { name = "Home", pageRef = "/", weight = 1},
+  { name = "Contact", pageRef = "/contact", weight = 2 },
+  { name = "Aanmelden", pageRef = "/aanmelden", weight = 3 },
+  { name = "FAQ", pageRef = "/faq", weight = 4 },
+  { name = "Leden", pageRef="/leden", weight = 5 }
 ]
 

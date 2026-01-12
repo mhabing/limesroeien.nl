@@ -3,9 +3,9 @@ date = '2026-01-07T21:01:44Z'
 draft = true
 title = 'Contact'
 +++
-Voor meer informatie kunt u contact opnement met: [info@limesroeien.nl](mailto:minfo@limesroeien.nl) of 06-999999999.
+Voor meer informatie kunt u contact opnement met: [limes@limesroeien.nl](mailto:minfo@limesroeien.nl) of 06-999999999.
 
-`<formulier voor aanmelden>`
+{{< contact >}}
 
 ## Roeilocatie
 
