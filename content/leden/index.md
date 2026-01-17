@@ -12,6 +12,5 @@ Het weer op de steiger:
 `<obstakels>`
 
 ## Agenda
-- 10 Januari: Snert-roeien avond tocht
-- 22 januari: Leden vergaderin in Odijk
-- 23 februari: 'Wilde Rijn' over roeien
+- 10 Januari: Snert-roeien avondtocht
+- 25 januari: Algemene Ledenvergadering
