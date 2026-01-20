@@ -1,6 +1,6 @@
 +++
 date = '2026-01-07T21:01:37Z'
-draft = true
+draft = false
 title = 'Faq'
 +++
 ## Hoeveel is de contributie? 

@@ -1,11 +1,11 @@
 +++
 date = '2026-01-07T21:01:44Z'
-draft = true
+draft = false
 title = 'Contact'
 +++
-Voor meer informatie kunt u mailen naar: [limes@limesroeien.nl](mailto:minfo@limesroeien.nl).
 
-{{< contact >}}
+## Mail
+Voor meer informatie kunt u mailen naar: [limes@roeienlimes.nl](mailto:limes@roeienlimes.nl)
 
 ## Roeilocatie
 
@@ -15,6 +15,3 @@ We starten bij het clubhuis van Scouting Katimavik in Odijk.
 
 ## Postadres
 ...
-
-## Mail
-[limes@roeienlimes.nl](mailto:limes@roeienlimes.nl)

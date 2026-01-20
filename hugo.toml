@@ -4,7 +4,7 @@ title = 'Roeivereniging Limes'
 theme = 'hugo-flex'
 
 [params]
-color = "#A7321B"
+color = "#b71c1c"
 footer = ""
 
 [menu]

@@ -1,0 +1,20 @@
+<!-- INCLUDE ACTIVE -->
+{{ resources.Get "css/contact.css" | .Page.Store.SetInMap "css" "contact" }}
+<form class="Contact" action="https://api.web3forms.com/submit" method="POST">
+<ul class="Contact-group">
+  <input type="hidden" name="access_key" value="b0878340-2f9a-44e1-a80e-e180d33690fb">
+  <li class="Contact-item">
+<label class="Contact-Label" for="Contact-name">Naam:</label>
+  <input type="text" name="naam" class="Contact-item" required>
+</li>
+<li class="Contant-item">
+<label class="Contact-label" for="Contact-email">Email:</label>
+  <input type="email" name="email" required>
+</li>
+<li class="Contact-item">
+<label class="Contact-label" for="bericht">Bericht:</label>
+  <textarea name="bericht" class="Class-input" required></textarea>
+</li>
+  <button type="submit" class="Contact-button">Submit</button>
+</ul>
+</form>
