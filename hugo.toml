@@ -10,9 +10,10 @@ footer = ""
 [menu]
 main = [
   { name = "Home", pageRef = "/", weight = 1},
-  { name = "Contact", pageRef = "/contact", weight = 2 },
-  { name = "Aanmelden", pageRef = "/aanmelden", weight = 3 },
-  { name = "FAQ", pageRef = "/faq", weight = 4 },
-  { name = "Leden", pageRef="/leden", weight = 5 }
+  { name = "Over ons", pageRef = "/over", weight = 2 },
+  { name = "FAQ", pageRef = "/faq", weight = 3 },
+  { name = "Roeien", pageref = "/roeien", weight = 4 },
+  { name = "Contact", pageRef = "/contact", weight = 5 },
+  { name = "Nieuws", pageRef="/nieuws", weight = 6 }
 ]
 

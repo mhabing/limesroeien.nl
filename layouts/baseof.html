@@ -17,6 +17,9 @@
 </head>
 
 <body>
+{{ if eq hugo.Environment "production" }}
+{{ partial "google-analytics.html" . }}
+{{ end }}
   {{ partialCached "banner.html" . .IsHome }}
   <main>
     <div class="u-wrapper">

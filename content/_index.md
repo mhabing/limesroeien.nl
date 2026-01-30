@@ -10,7 +10,7 @@ Welkom op de website van Roeivereniging Limes! De roeivereniging in Odijk. Wij b
 
 ## Proefroeien
 Ben je geïnteresseerd roeien? Kom dan eens proefroeien. Ben je een ervaren roeier, dan kan je drie keer
-gratis mee roeien om te kijken of het iets voor jou is. [Neem contact met ons op]({{< relref "aanmelden/index.md" >}})
+gratis mee roeien om te kijken of het iets voor jou is. [Neem contact met ons op]({{< relref "contact/index.md" >}})
 om een afspraak te maken. Heb je nog geen ervaring maar wel belangstelling, 
 dan kun je bij ons leren roeien.
 
