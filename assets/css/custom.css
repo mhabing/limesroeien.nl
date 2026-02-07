@@ -1,0 +1,101 @@
+.btn {
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid;
+}
+
+/* Outline style (like "Boek een proefles") */
+.btn-outline {
+  background-color: transparent;
+  border-color: #d4a5a5; /* adjust to your peach/coral color */
+  color: #333;
+}
+
+.btn-outline:hover {
+  background-color: #f5e6e6;
+}
+
+/* Solid style (like "Word lid") */
+.btn-solid {
+  background-color: #e8a87c; /* adjust to your coral/peach color */
+  border-color: #e8a87c;
+  color: #fff;
+}
+
+.btn-solid:hover {
+  background-color: #d4956a;
+  border-color: #d4956a;
+}
+
+.faq-item {
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  padding: 24px 28px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.faq-question {
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #e8a87c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 16px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.faq-icon::before,
+.faq-icon::after {
+  content: '';
+  position: absolute;
+  background-color: #333;
+  transition: transform 0.3s ease;
+}
+
+.faq-icon::before {
+  width: 14px;
+  height: 2px;
+}
+
+.faq-icon::after {
+  width: 2px;
+  height: 14px;
+}
+
+details[open] .faq-icon::after {
+  transform: rotate(90deg);
+}
+
+details[open] .faq-icon {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  margin-top: 16px;
+  line-height: 1.6;
+  color: #333;
+}

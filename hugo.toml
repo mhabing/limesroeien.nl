@@ -4,8 +4,11 @@ title = 'Roeivereniging Limes'
 theme = 'hugo-flex'
 
 [params]
-color = "#b71c1c"
+css = ["css/custom.css"]
+color = "#872321"
 footer = ""
+description = 'Roeivereniging Limes is een hechte en groeiende roeiclub in Bunnik/Odijk/Werkhoven en omgeving. Ontdek het prachtige roeiwater van de Kromme Rijn. Kom proefroeien!'
+keywords = "roeien, roei club, odijk, bunnik, leren roeien"
 
 [menu]
 main = [

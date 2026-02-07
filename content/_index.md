@@ -6,11 +6,21 @@ keywords = ["roeivereniging limes", "limes roeien", "roeien odijk"]
 +++
 ![Roeivereniging Limes](PHOTO-2025-05-13-22-22-48.jpg)
 
-Welkom op de website van Roeivereniging Limes! De roeivereniging in Odijk. Wij bieden roeimogelijkheden voor zowel beginners als ervaren roeiers. Onze vereniging is gelegen aan de prachtige rivier de Kromme Rijn, waar je kunt genieten van het roeien in een rustige en natuurlijke omgeving. De club is opgericht in 2021 en is sindsdien gegroeid naar zo'n 35 leden.
+## Roeien: lekker buiten aan je conditie en spierkracht werken
+Roeivereniging Limes is een groeiende roeiclub in Bunnik/Odijk aan de prachtige rivier de Kromme Rijn. Limes is er voor iedereen die geniet van buiten zijn en spierkracht en conditie wil versterken. Ook is Limes een hechte vereniging met een actief bestuur en leden.  
 
-## Proefroeien
-Ben je geïnteresseerd roeien? Kom dan eens proefroeien. Ben je een ervaren roeier, dan kan je drie keer
-gratis mee roeien om te kijken of het iets voor jou is. [Neem contact met ons op]({{< relref "contact/index.md" >}})
-om een afspraak te maken. Heb je nog geen ervaring maar wel belangstelling, 
-dan kun je bij ons leren roeien.
+{{< button url="/contact" text="Proefroeien" style="outline" >}}
+
+## Gezonde sport
+Roeien is een sport die je je hele leven kunt doen.  Het is een van de weinige sporten die meer dan 80% van je spieren traint, inclusief rug, benen, buikspieren, armen en schouders, terwijl de belasting op gewrichten minimaal is. Je verbetert met roeien niet alleen je spierkracht, maar ook je conditie. 
+Bij ons kun je terecht als beginner en als ervaren roeier. 
+## Proefroeien of lid worden
+Nieuwsgierig geworden? Kom dan een keertje proefroeien.
+Ben je een ervaren roeier? Dan kan je drie keer gratis meeroeien om te kijken of Limes iets voor jou is. 
+
+Heb je nog geen ervaring maar wel belangstelling? Dan kun je bij ons leren roeien.
+
+Neem gerust contact met ons op.  
+{{< button url="/contact" text="Contact" style="solid" >}}
+
 

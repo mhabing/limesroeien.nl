@@ -5,9 +5,6 @@
   {{ block "load_paginator" . }}{{ end }}
   {{ partial "meta.html" . }}
   {{ partial "title.html" . }}
-{{ if eq hugo.Environment "production" }}
-  {{ partial "analytics.html" . }}
-{{ end }}
   {{ partial "link.html" . }}
   {{ partial "load_site_assets.html" . }}
   {{ block "load_page_assets" . }}

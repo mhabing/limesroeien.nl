@@ -7,9 +7,15 @@ title = 'Veelgestelde vragen'
 ![Kasteel Beverweerd](PHOTO-2025-04-05-18-26-57-2.jpg)
 
 ## Algemeen
+{{< faq question="Waar zit Limes?" >}}
+De opstap steiger ligt in Odijk, bij de scouting Katimavik
+{{< /faq >}}
+{{< faq question="Hoe groot is de vereniging?" >}}
+Roeivereniging Limes bestaat uit ongeveer 35 leden
+{{< /faq >}}
+
 - Waar zit Limes?
 - Hoe bereik ik Limes?
-- Hoe groot is de vereniging?
 - Waar kan ik roeien?
 - Met wie kan ik roeien?
 - Hoe regel je een roeimaatje?

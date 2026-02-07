@@ -10,4 +10,4 @@ description = 'Vind hier de locatie van Roeivereniging Limes in Bunnik, inclusie
 {{< weer >}}
 
 ## Actueel (obstakels bijv)
-## Aagenda
+## Agenda

@@ -33,3 +33,15 @@ Limes.
 
 *Daniël Bourguignon, voorzitter*
 
+[ Uitklapmenu ] Bestuur
+Het bestuur bestaat uit ………
+
+[ Uitklapmenu ALV ] 
+X keer per jaar is er een algemene ledenvergadering ………… (evt notulen toevoegen?) 
+
+[ Uitklapmenu ] Statuten
+De statuten ……. (pdf toevoegen van de statuten)
+
+[ Uitklapmenu ] Huishoudelijk reglement
+Het huishoudelijk reglement…………. (pdf toevoegen van huishoudelijk reglement)
+
