@@ -99,3 +99,39 @@ details[open] .faq-icon {
   line-height: 1.6;
   color: #333;
 }
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  .btn-outline {
+    color: #fff; /* witte tekst in plaats van #333 */
+    border-color: #d4a5a5;
+  }
+  
+  .btn-outline:hover {
+    background-color: rgba(212, 165, 165, 0.2);
+    color: #fff;
+  }
+  
+  .btn-solid {
+    background-color: #e8a87c;
+    border-color: #e8a87c;
+    color: #fff; /* dit blijft hetzelfde, maar voor de zekerheid */
+  }
+
+ .faq-item {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .faq-question {
+    color: #fff;
+  }
+  
+  .faq-answer {
+    color: #e5e5e5;
+  }
+  
+  .faq-icon::before,
+  .faq-icon::after {
+    background-color: #fff; /* witte icoon in plaats van #333 */
+  }
+}
