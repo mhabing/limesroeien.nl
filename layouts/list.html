@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+  {{ $context := dict "page" . "level" 1 "isdateshown" false }}
+  {{ partial "heading.html" $context }}
+
+  {{ .Content }}
+
+  {{ $menuOrder := .Params.menuorder }}
+
+  {{ if $menuOrder }}
+    {{ $groups := dict }}
+    {{ range .Pages }}
+      {{ $key := .Params.menu | default "Overig" }}
+      {{ $existing := index $groups $key }}
+      {{ $groups = merge $groups (dict $key (union $existing (slice .))) }}
+    {{ end }}
+
+    {{ range $menuOrder }}
+      {{ $pages := index $groups . }}
+      {{ if $pages }}
+        <h2>{{ . }}</h2>
+        <ul>
+          {{ range sort $pages ".Params.weight" }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    {{ end }}
+
+  {{ else }}
+    {{ range .Pages.GroupByPublishDate "2006" }}
+      <h2>{{ .Key }}</h2>
+      <ul>
+        {{ range .Pages }}
+          <li>
+            {{ time.Format "2006-01-02" .PublishDate }} – <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  {{ end }}
+
+{{ end }}

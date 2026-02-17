@@ -1,3 +1,59 @@
+/* CSS Variables for color scheme */
+:root {
+  /* RAL Colors */
+  --color-verkeerswit: #f1f0ea;
+  --color-karmijnrood: #a52217;
+  --color-zuiver-groen: #008b29;
+  --color-ultramarijnblauw: #2B2C7C;
+  
+  /* Light mode colors */
+  --bg-primary: #f1f0ea;
+  --bg-secondary: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  
+  --btn-primary-bg: #a52217;
+  --btn-primary-hover: #8a1c13;
+  --btn-secondary-bg: #2B2C7C;
+  --btn-secondary-hover: #1f2059;
+  --btn-outline-border: #2B2C7C;
+  --btn-outline-hover-bg: rgba(43, 44, 124, 0.08);
+  
+  --accent-success: #008b29;
+  --accent-success-light: #e6f4eb;
+  
+  --faq-bg: #ffffff;
+  --faq-shadow: rgba(0, 0, 0, 0.05);
+  --faq-icon-bg: #a52217;
+  --faq-icon-symbol: #ffffff;
+}
+
+/* Dark mode colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2a2a2a;
+    --text-primary: #f1f0ea;
+    --text-secondary: #d0d0d0;
+    
+    --btn-primary-bg: #c73028;
+    --btn-primary-hover: #e03e35;
+    --btn-secondary-bg: #3d3f9f;
+    --btn-secondary-hover: #5254c5;
+    --btn-outline-border: #5254c5;
+    --btn-outline-hover-bg: rgba(82, 84, 197, 0.15);
+    
+    --accent-success: #00a835;
+    --accent-success-light: rgba(0, 168, 53, 0.15);
+    
+    --faq-bg: rgba(255, 255, 255, 0.05);
+    --faq-shadow: rgba(0, 0, 0, 0.2);
+    --faq-icon-bg: #c73028;
+    --faq-icon-symbol: #f1f0ea;
+  }
+}
+
+/* Button base styles */
 .btn {
   display: inline-block;
   padding: 12px 32px;
@@ -6,37 +62,69 @@
   font-weight: 500;
   transition: all 0.3s ease;
   border: 2px solid;
+  cursor: pointer;
 }
 
-/* Outline style (like "Boek een proefles") */
+/* Outline button (secondary action) */
 .btn-outline {
   background-color: transparent;
-  border-color: #d4a5a5; /* adjust to your peach/coral color */
-  color: #333;
+  border-color: var(--btn-outline-border);
+  color: var(--text-primary);
 }
 
 .btn-outline:hover {
-  background-color: #f5e6e6;
+  background-color: var(--btn-outline-hover-bg);
+  border-color: var(--btn-secondary-hover);
 }
 
-/* Solid style (like "Word lid") */
+/* Solid button (primary action) */
 .btn-solid {
-  background-color: #e8a87c; /* adjust to your coral/peach color */
-  border-color: #e8a87c;
-  color: #fff;
+  background-color: var(--btn-primary-bg);
+  border-color: var(--btn-primary-bg);
+  color: #ffffff;
 }
 
 .btn-solid:hover {
-  background-color: #d4956a;
-  border-color: #d4956a;
+  background-color: var(--btn-primary-hover);
+  border-color: var(--btn-primary-hover);
 }
 
+/* Secondary solid button (alternative) */
+.btn-secondary {
+  background-color: var(--btn-secondary-bg);
+  border-color: var(--btn-secondary-bg);
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: var(--btn-secondary-hover);
+  border-color: var(--btn-secondary-hover);
+}
+
+/* Success/confirmation button */
+.btn-success {
+  background-color: var(--accent-success);
+  border-color: var(--accent-success);
+  color: #ffffff;
+}
+
+.btn-success:hover {
+  background-color: #007020;
+  border-color: #007020;
+}
+
+/* FAQ Styles */
 .faq-item {
-  background-color: #fff;
+  background-color: var(--faq-bg);
   border-radius: 12px;
   margin-bottom: 16px;
   padding: 24px 28px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px var(--faq-shadow);
+  transition: box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+  box-shadow: 0 4px 12px var(--faq-shadow);
 }
 
 .faq-question {
@@ -48,6 +136,7 @@
   justify-content: space-between;
   align-items: center;
   user-select: none;
+  color: var(--text-primary);
 }
 
 .faq-question::-webkit-details-marker {
@@ -57,7 +146,7 @@
 .faq-icon {
   width: 40px;
   height: 40px;
-  background-color: #e8a87c;
+  background-color: var(--faq-icon-bg);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -65,14 +154,18 @@
   flex-shrink: 0;
   margin-left: 16px;
   position: relative;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.faq-icon:hover {
+  background-color: var(--btn-primary-hover);
 }
 
 .faq-icon::before,
 .faq-icon::after {
   content: '';
   position: absolute;
-  background-color: #333;
+  background-color: var(--faq-icon-symbol);
   transition: transform 0.3s ease;
 }
 
@@ -97,41 +190,33 @@ details[open] .faq-icon {
 .faq-answer {
   margin-top: 16px;
   line-height: 1.6;
-  color: #333;
+  color: var(--text-secondary);
 }
 
-/* Dark mode overrides */
-@media (prefers-color-scheme: dark) {
-  .btn-outline {
-    color: #fff; /* witte tekst in plaats van #333 */
-    border-color: #d4a5a5;
-  }
-  
-  .btn-outline:hover {
-    background-color: rgba(212, 165, 165, 0.2);
-    color: #fff;
-  }
-  
-  .btn-solid {
-    background-color: #e8a87c;
-    border-color: #e8a87c;
-    color: #fff; /* dit blijft hetzelfde, maar voor de zekerheid */
-  }
+/* Utility classes for accent colors */
+.text-primary {
+  color: var(--text-primary);
+}
 
- .faq-item {
-    background-color: rgba(255, 255, 255, 0.05);
-  }
-  
-  .faq-question {
-    color: #fff;
-  }
-  
-  .faq-answer {
-    color: #e5e5e5;
-  }
-  
-  .faq-icon::before,
-  .faq-icon::after {
-    background-color: #fff; /* witte icoon in plaats van #333 */
-  }
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-red {
+  color: var(--color-karmijnrood);
+}
+
+.text-green {
+  color: var(--color-zuiver-groen);
+}
+
+.text-blue {
+  color: var(--color-ultramarijnblauw);
+}
+
+.bg-success-light {
+  background-color: var(--accent-success-light);
+  padding: 12px 16px;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent-success);
 }

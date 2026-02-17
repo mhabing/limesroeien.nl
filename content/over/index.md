@@ -1,7 +1,7 @@
 +++
-date = '2026-01-29T14:55:14+01:00'
 draft = false
-title = 'Over'
+title = 'Over ons'
+showdate = false
 +++
 ![Blik op de Kromme Rijn](PHOTO-2025-04-05-16-46-23-4.jpg)
 ## Roeivereniging Limes: waar grenzen verlegd worden
@@ -17,13 +17,13 @@ perfect omschrijft: grensverleggend, verfrissend en verbindend.
 
 Na een zoektocht vonden we een thuisbasis in Odijk, maar ons echte domein is de
 Kromme Rijn. Dit is een ongelooflijk, prachtig roeiwater. Het voelt soms als
-roeien door &lsquo;de jungle bij Bunnik&rsquo; of langs &lsquo;de Loire&rsquo; bij Kasteel Beverweerd.
+roeien door &lsquo;de jungle&rsquo; bij Bunnik of langs &lsquo;de Loire&rsquo; bij Kasteel Beverweerd.
 Elke tocht is weer een verfrissing voor lichaam en geest, en elk seizoen toont
 de natuur een nieuw gezicht.
 
 Ons eerste schip, de &lsquo;Godebald&rsquo;, ging in mei 2021 te water. In 2023 groeide
 onze vloot met de &lsquo;Wilde Rijn&rsquo;, die we met een onvergetelijke marathontocht van
-Amsterdam naar Odijk hebben overgevaren. Inmiddels (2025) zijn we een hechte
+Amsterdam naar Odijk hebben overgevaren. Inmiddels zijn we een hechte
 club met ruim 30 leden, van klussers tot instructeurs. We leggen de lat hoog,
 maar vooral: we genieten samen.
 
@@ -33,15 +33,26 @@ Limes.
 
 *Daniël Bourguignon, voorzitter*
 
-[ Uitklapmenu ] Bestuur
-Het bestuur bestaat uit ………
+{{< faq question="Bestuur" >}}
+Het bestuur bestaat uit:
+- Daniel Bourguignon (voorzitter)
+- Carmely Mosterd (secretaris en ledenadministratie)
+- Ineke Bernink (penningmeester)
+- Margreet van Zanten (algemeen bestuurslid)
+{{< /faq >}}
 
-[ Uitklapmenu ALV ] 
-X keer per jaar is er een algemene ledenvergadering ………… (evt notulen toevoegen?) 
+{{< faq question="ALV" >}} 
+Twee keer per jaar is er een algemene ledenvergadering. Eentje in
+het najaar voor het vaststellen van de begroting en de contributie
+voor het nieuwe jaar en een andere in het begin van het jaar. Tijdens
+deze ALV kijken we terug op het achterliggende jaar en wordt de
+financiële afrekening gepresenteerd).
+{{< /faq >}}
 
-[ Uitklapmenu ] Statuten
-De statuten ……. (pdf toevoegen van de statuten)
+{{< faq question="Statuten" >}}
+De statuten [Download de statuten](/pdf/20251117%20Statuten%20RV%20Limes.pdf)
+{{< /faq >}}
 
-[ Uitklapmenu ] Huishoudelijk reglement
-Het huishoudelijk reglement…………. (pdf toevoegen van huishoudelijk reglement)
-
+{{< faq question="Huishoudelijk reglement" >}}
+[Het huishoudelijk reglement](/pdf/Huishoudelijk%20reglement%20Limes.pdf)
+{{< /faq >}}
