@@ -9,7 +9,7 @@ params.menu = "Veiligheid"
 +++
 Wat je moet doen in een noodsituatie en hoe je schades kunt melden.
 
-Zie ook onder [Veiligheid](/roeien/veilgheid/) wanneer je niet mag
+Zie ook onder [Veiligheid](/roeien/veiligheid/) wanneer je niet mag
 roeien en hoe je je kunt beschermen.
 
 - Neem een mobiele telefoon (in een waterdichte hoes of tasje) mee aan

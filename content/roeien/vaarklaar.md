@@ -112,5 +112,6 @@ Je schuift een riem met de hals in de dol.
 - Na het inleggen van de riemen aan de walzijde, direct de overslagen
   dichtmaken.
 
-Hoe je je roeipositie moet instellen [lees je hier](/roeien/afstelling/) [[lees je
-hier](https://docs.google.com/document/d/1X1UOT8EW-3PGqKWJcj4Nhi-qkbjTzyqPsbQa2kcRk3E/edit?usp=sharing).
+Hoe je je roeipositie moet instellen
+
+{{< button url="/roeien/afstelling/" text="Roeipositie" style="outline" >}}

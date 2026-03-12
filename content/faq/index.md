@@ -32,7 +32,7 @@ financiële afrekening gepresenteerd).
 {{< /faq >}}
 
 {{< faq question="Statuten" >}}
-De statuten [Download de statuten](/pdf/20251117%20Statuten%20RV%20Limes.pdf)
+Download [de statuten](/pdf/20251117%20Statuten%20RV%20Limes.pdf)
 {{< /faq >}}
 
 {{< faq question="Huishoudelijk reglement" >}}
@@ -41,7 +41,7 @@ De statuten [Download de statuten](/pdf/20251117%20Statuten%20RV%20Limes.pdf)
 
 ## Contributie
 {{< faq question="Hoeveel bedraagt de contributie" >}}
-De contributie is 250 EUR per jaar
+De contributie is 250 EUR per jaar en woesr naar rato berekend, vanaf de maand dat je lid wordt.
 {{< /faq >}}
 
 {{< faq question="Wanneer betaal ik contributie" >}}

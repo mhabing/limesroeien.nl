@@ -11,7 +11,7 @@ vergemakkelijken en de veiligheid tijdens het sturen vergroten.
 - **Niet te wijde kleding**. Dit kan vast komen te zitten in de
   slidings. Wedstrijdkleding is vergelijkbaar met fietskleding: strakke
   broeken en bovenkleding
-- **Lichte kleding.** Bij een calamiteit zit kleding
+- **Lichte kleding.** Lichte kleding bemoeilijkt het zwemmen niet bij omslaan.
 - **Opvallende kleuren**. Dan ben je goed zichtbaar en dat is voor de
   veiligheid op het water belangrijk.
 - **Soepele schoenen.** Niet te brede en soepele schoenen, anders passen
@@ -25,4 +25,6 @@ Ga je sturen? Houd dan rekening met het volgende.
 - Draag geen kleding die zwemmen bemoeilijkt
 - Draag bij voorkeur een zwemvest als het kouder is dan 15 graden.
 
-Zie ook bij [Veiligheid](/roeien/veiligheid/) 
+Zie ook 
+
+{{< button url="/roeien/veiligheid/" text="Veiligheid" style="outline" >}}

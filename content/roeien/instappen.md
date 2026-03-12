@@ -34,6 +34,5 @@ Kijk hier een
 [instructievideo](https://youtu.be/SoVE4OJBmGA?si=AuQDkCWR1WFJHyZ5) over
 instappen
 
-Hoe je je roeipositie moet instellen [lees je
+Je roeipositie moet instellen [lees je
 hier](/roeien/afstelling/) 
-

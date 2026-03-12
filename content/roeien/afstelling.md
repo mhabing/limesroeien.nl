@@ -5,7 +5,9 @@ title = "De juiste afstellingen"
 params.menu = "Roeitechniek"
 +++
 
-Hoe je moet instappen [lees je hier](/roeien/instappen/)
+Hoe je moet instappen:
+
+{{< button url="/contact" text="Instappen" style="outline" >}}
 
 Dan volgt het instellen van je roeipositie.
 

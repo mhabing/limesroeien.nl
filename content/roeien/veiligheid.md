@@ -72,7 +72,7 @@ Voor nachttochten kan men dispensatie aanvragen bij het bestuur.
 
 - Als je in de winter gaat roeien, wees je er dan van bewust dat de
   watertemperatuur veel lager is dan in de zomer. Omslaan is dan geen
-  pretje. Bij een watertemperatuur lager dan 20 gaden koel je al af, ook
+  pretje. Bij een watertemperatuur lager dan 20 graden koel je al af, ook
   als je aan het roeien bent. Er bestaat een 1-10-1-regel: 1 minuut voor
   de koude shock waarin het lichaam heftig reageert op koud water en die
   je rustig moet zien te doorstaan, 10 minuten om te handelen en 1 uur
